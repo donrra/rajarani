@@ -1,6 +1,32 @@
 @charset "utf-8";
 /* CSS Document */
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Tablet Styles (768px and below) */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+}
+
+/* Mobile Styles (480px and below) */
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+
 body {
 	margin: 0;
 	padding: 0;

@@ -1,0 +1,32 @@
+.greenbtn {
+	float: left;
+	display: block;
+	height: 40px
+}
+.greenbtn input {
+	float: left;
+	border: none;
+	background: url(images/fieldsbg.png) no-repeat -4px -457px;
+	height: 40px;
+	float: left;
+	padding: 0 5px 0 15px;
+	color: #ffffff;
+	font-size: 12px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+	cursor: pointer
+}
+.greenbtn em {
+	display: block;
+	float: left;
+	width: 10px;
+	height: 40px;
+	background: url(images/fieldsbg.png) no-repeat -728px -457px;
+}
+
+ .popupmain{ margin:0 auto; display:block; min-height:200px; height:auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000000;}
+.popupmain .row{ width:auto; margin:0 auto; padding:10px; text-align:center; }
+.popupmain .row textarea{ border:1px solid #cacaca; width:500px; min-height:100px; font-size:13px; color:#000000;}
+.popupmain .row input.check{ float:left;}
+.popupmain .row p{ display:block; text-align:left;  margin:0 auto;}
+#showmesage p{ text-align:center; font-size:14px; color:#555;}

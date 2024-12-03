@@ -1,0 +1,30 @@
+#mainContent,
+  #header,
+  #about,
+    #styles ul,
+  #external,
+  .build,
+    .build h3,
+    #examples,
+    #styles,
+    .disclaimer,
+    .ctrlHolder{ zoom: 1; }
+
+.disclaimer{ margin-top: -56px; }
+
+#header{ margin-bottom: 28px; }
+
+#examples .content{ margin-top: -28px; }
+  #examples .nav a{ position: relative; }
+
+#external li{ margin-left: 14px; }
+
+#about .cta{ background: #000; padding-bottom: 28px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=15); }
+  #about .cta p{ position: relative; }
+
+#styles{ background: #000; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=15); }
+  #styles li span{ background: #000; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75); }
+  
+  #styles p.intro{ margin-top: -8px; }
+
+.build h3 span{ margin-top: -.75em; }

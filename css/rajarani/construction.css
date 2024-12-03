@@ -1,0 +1,77 @@
+
+.panel {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  margin: 1.25em;
+  padding: 1.25em;
+  background: #f2f2f2;
+  border-radius:5px; }
+
+.panel p{
+    color: #515151;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+p.construc_comment{font-size: 13px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-bottom: 1.25em;
+    text-rendering: optimizelegibility;
+	color:#8D8D8D;
+	margin:1.25em;}
+	
+	.block {
+	margin:0 auto;
+	text-align:left;
+}
+.element * {
+	padding:5px; 
+	/*margin:2px; */
+	font-family:arial;
+	font-size:12px;
+}
+.element label {
+	float:left; 
+	width:70px;
+	font-weight:700;
+	margin-left:10px;
+}
+.element input.text {
+	float:left; 
+	width:200px;
+	/*padding-left:20px;*/
+}
+.element .textarea {
+	height:120px; 
+	width:200px;
+	/*padding-left:20px;*/
+}
+.element .hightlight {
+	border:2px solid #9F1319;
+	background:url(iconCaution.gif) no-repeat 2px
+}
+.element #submit {
+	float:left;
+	/*margin-right:10px;*/
+	margin-left:87px;
+}
+.loading {
+	float:right; 
+	background:url(ajax-loader.gif) no-repeat 1px; 
+	height:28px; 
+	width:28px; 
+	display:none;
+}
+.done {
+	background:url(iconIdea.gif) no-repeat 2px; 
+	padding-left:20px;
+	font-family:arial;
+	font-size:12px; 
+	width:70%; 
+	margin:20px auto; 
+	display:none
+}
+
+.row{ margin-left:0 !important;}

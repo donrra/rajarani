@@ -1,0 +1,23 @@
+#mainContent,
+  #header,
+  #about,
+    #styles ul,
+  #external,
+  .build,
+    .build h3,
+    #examples,
+    #styles,
+    .disclaimer,
+    .ctrlHolder{ zoom: 1; }
+
+#external li{ margin-left: 14px; }
+
+#about .cta{ background: #000; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=15); }
+  #about .cta p{ position: relative; }
+
+#styles{ background: #000; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=15); }
+  #styles li span{ background: #000; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75); }
+  #styles h2,
+  #styles p{ position: relative; }
+  
+  #styles p.intro{ margin-top: -8px; }

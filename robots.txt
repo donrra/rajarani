@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /framework/
+Disallow: /assets/
+Disallow: /emails/
+Disallow: /js/
+Disallow: /gallery/
+Disallow: /user_avatar/

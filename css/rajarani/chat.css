@@ -1,0 +1,148 @@
+.chatbox {
+	position: fixed;
+	position:expression("absolute");
+	width: 225px;
+	display:none;
+}
+
+.chatboxhead {
+	background-color: #f99d39;
+	padding:7px;
+	color: #ffffff;
+    width:217px;
+	border-right:1px solid #f99d39;
+	border-left:1px solid #f99d39;
+	/**********background: url("images/status.png") no-repeat scroll 0 0 transparent;**************************/
+}
+
+.chatboxblink {
+	background-color: #176689;
+	border-right:1px solid #176689;
+	border-left:1px solid #176689;
+}
+
+.chatboxcontent {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+	height:200px;
+	width:217px;
+	overflow-y:auto;
+	overflow-x:auto;
+	padding:7px;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #eeeeee;
+	background-color: #ffffff;
+	line-height: 1.3em;
+}
+
+.chatboxinput {
+	padding: 5px;
+	background-color: #ffffff;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	width:221px;
+}
+
+.chatboxtextarea {
+	width: 185px;
+	height:44px;
+	padding:3px 0pt 3px 3px;
+	border: 0px solid #eeeeee;
+	margin: 1px;
+	overflow-x:hidden;
+ 	overflow-y:auto;
+	position:relative;
+	max-width:192px;
+
+}
+/*********************/
+
+.emoticonsPanel
+{
+bottom: -1px;
+position: absolute;
+}
+.emoticonsPanel .emoteTogglerImg {
+    background:url(images/smileys.jpg) -150px -46px no-repeat ; 
+	width:22px; height:22px; display:block; float:left;
+	position: relative;
+    z-index: 1;
+}
+.emoticonsPanel .emoteTogglerImg {
+    display: block;
+    height: 22px;
+    width: 22px;
+}
+a {
+    color: #3B5998;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.emoticonsPanel .panelFlyout {
+    border-bottom: 2px solid #293E6A;
+    bottom: 24px;
+    right: 0;
+	display:none;
+	position:absolute;
+}
+
+/**********background: url("images/status.png") no-repeat scroll 0 0 transparent;**************************/
+
+.chatboxtextareaselected {
+	border: 2px solid #f99d39;/**/
+	margin:0;
+}
+
+.chatboxmessage {
+	/*margin-left:1em;*/
+	margin:2px 6px 2px 6px; padding:0;
+	display:block; clear:both;
+}
+
+.chatboxinfo {
+	margin-left:-1em;
+	color:#666666;
+
+}
+
+.chatboxmessagefrom {
+/*	margin-left:-1em;*/
+	margin-left:0em;
+	font-weight: bold;
+	float:left;
+}
+.off1 {
+	color:#D00;
+	
+}
+.chatboxmessagecontent {
+	
+	
+}
+.off {
+	color:#D00;
+	
+}
+
+.chatboxoptions {
+	float: right;
+}
+
+.chatboxoptions a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+
+.chatboxtitle {
+	float: left;
+		
+
+}
+
